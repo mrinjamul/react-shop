@@ -4,20 +4,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="chat-notification">
+        <div class="chat-notification-logo-wrapper">
+          <img class="chat-notification-logo" src={logo} alt="ChitChat Logo" />
+        </div>
+        <div class="chat-notification-content">
+          <h4 class="chat-notification-title">ChitChat</h4>
+          <p class="chat-notification-message">You have a new message!</p>
+        </div>
+      </div>
     </div>
   );
 }
