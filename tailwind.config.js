@@ -5,7 +5,6 @@ module.exports = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundColor: ["group-hover"],
       colors: {
         gray: colors.blueGray,
         red: colors.rose,
@@ -13,7 +12,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ["group-hover"],
+    },
   },
   plugins: [],
 };
