@@ -1,8 +1,11 @@
 function Product({ product: { title, price, description, category, image } }) {
   return (
-    <div className="bg-white w-full mb-5">
-      <div style={{ backgroundImage: `url(${image})` }}></div>
-      <div>
+    <div className="flex bg-white w-full mb-5">
+      <div
+        style={{ backgroundImage: `url(${image})` }}
+        className="w-5/12"
+      ></div>
+      <div className="w-7/12">
         <h1>{title.substr(0, 50)}</h1>
         <h3>{category}</h3>
         <p>{price}$</p>

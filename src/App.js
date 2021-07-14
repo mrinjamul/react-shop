@@ -7,7 +7,7 @@ function App() {
     <div className="bg-gray-200">
       <div className="md:w-1/2 mx-auto">
         {products.map((product, id) => (
-          <Product product={product} key={id} />
+          <Product product={product} key={product.id} />
         ))}
       </div>
     </div>
