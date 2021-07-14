@@ -7,8 +7,8 @@ function Product({ product: { title, price, description, category, image } }) {
       ></div>
       <div className="w-7/12 p-5">
         <h1>{title.substr(0, 50)}</h1>
-        <h3>{category}</h3>
-        <p>{price}$</p>
+        <h3 className="text-gray-400">{category}</h3>
+        <p className="text-red-400 mt-4">{price}$</p>
         <div className="mt-4">{description.substr(0, 100)}</div>
       </div>
     </div>
