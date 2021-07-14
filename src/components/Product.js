@@ -1,6 +1,6 @@
 function Product({ product: { title, price, description, category, image } }) {
   return (
-    <div className="flex bg-white w-full mb-5">
+    <div className="flex bg-white w-full mb-5 shadow-sm rounded-lg">
       <div className="w-5/12 p-2">
         <div
           style={{ backgroundImage: `url(${image})` }}
