@@ -5,7 +5,7 @@ module.exports = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
-      divideColor: ["group-hover"],
+      backgroundColor: ["group-hover"],
       colors: {
         gray: colors.blueGray,
         red: colors.rose,
